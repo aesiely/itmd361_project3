@@ -1,0 +1,254 @@
+body{
+  background-image: url("../media/marble.jpg");
+  background-repeat: repeat;
+  background-position: left;
+}
+ 
+#flag {
+  float: right;
+  margin: 15px;
+  padding: 5px;
+}
+
+#content-wrapper {
+	background-color: #aaa;
+}
+
+#navbar-container {
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 15px 30px;
+	color: #fff;
+	text-decoration: none;
+  background-color: red;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #245;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+	  color: #B22222;
+    margin: 0;
+}
+    
+h2 {
+    font-family: 'Lobster', cursive;
+    color: blue;
+    top: 4px;
+}
+
+h1 {
+    font-family: 'Nosifer', cursive;  
+    color: black;
+} 
+ 
+#wlc {
+			width: 450px;
+			height: 245px;
+			margin: 0;
+			float: left;
+      font-weight: bold;
+      padding: 14px 16px;
+      line-height: 1.5;
+      font-size: 1.75em;
+		}
+#middle {
+			width: 500px;
+			height: 500px;
+			margin: 0;
+			float: none;
+      margin: 0px 600px 100px;
+      font-weight: bold;
+      padding: 14px 16px;
+      line-height: 1.5;
+      font-size: 1.75em;
+}
+
+#emailaddress {
+  margin-top: 20%;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  background-color: grey;
+}
+
+/**
+RESUME PAGE CSS
+**/
+body {
+    background-image: url("../media/marble.jpg");
+    background-repeat: repeat;;
+    background-position: left;
+  }
+  
+#content-wrapper {
+	background-color: #aaa;
+}
+
+#navbar-container {
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 15px 30px;
+	color: #fff;
+	text-decoration: none;
+  background-color: red;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #245;
+}
+
+  h1 , h2 {
+    font-family: 'Nosifer', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  h3 {
+    color: #B22222;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+ #sec {
+  color: #B22222;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+ #skills{
+   margin-top: 20px;
+   margin-bottom: 30px;
+   margin-left: 10px;
+  }
+  
+ #box {
+  width: 300px;
+	height: 10px;
+	margin-top: -70px;
+	float: right;
+  font-weight: bold;
+  padding: 0px 20px;
+  line-height: 1.5;
+  font-size: 1.3em;
+ }
+ 
+#p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10 {
+   line-height: 1.5;
+  padding: 10px;
+ }
+ /**
+ Hobbies
+ **/
+#content-wrapper {
+	background-color: #aaa;
+}
+
+#navbar-container {
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 15px 30px;
+	color: #fff;
+	text-decoration: none;
+  background-color: red;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #245;
+}
+
+#soccer {
+  float: right;
+  margin: 15px;
+  padding: 5px;
+}
+
+#vid {
+  float: right;
+}
+
+#pic {
+  float: right;
+  position: fixed;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Nosifer', cursive;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #B22222;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+#p {
+  line-height: 1.5;
+  padding: 10px;
+}
+ 
+#p2 {
+  line-height: 1.5;
+  padding: 10px;
+} 
