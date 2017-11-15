@@ -16,5 +16,6 @@ var map;
           center: {lat: 31.526038, lng: 31.843669},
           mapTypeId: google.maps.MapTypeId.SATELLITE,
           zoom: 8
+          
         });
       }
