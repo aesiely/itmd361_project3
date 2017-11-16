@@ -76,17 +76,46 @@
            //     });
            //  } 
            
-           addMarker({lat:31.526038, lng:31.843669});
-           addMarker({lat:30.0444, lng:31.2357});
-           addMarker({lat:27.2579 , lng:33.8116 });
+           addMarker({
+           coords: {lat:31.526038, lng:31.843669},
+           iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+           content: '<h1>Hang out spot in my home town, Ras El Bar</h1>'
+          });
+           addMarker({
+           coords: {lat:30.0444, lng:31.2357},
+          
+           content: '<h1>The capital of Egypt, Cairo</h1>'
+           });
+           addMarker({
+           coords: {lat:27.2579 , lng:33.8116 },
+           iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+           content: '<h1>A beautiful get away for a vacation, Hurghada</h1>'
+           });
            
            //Add Marker function
-           function addMarker(coords){
+           function addMarker(props){
            var marker = new google.maps.Marker({
-              position: coords,
+              position: props.coords,
               map: map,
-              icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'              
+              icon: props.iconImage             
               });
+              
+              //check for customIcon
+              if(props.iconImage){
+              //set icon image
+              marker.setIcon(props.iconImage);
+              } 
+              
+              //check content
+              if (props.content) {
+              var infoWindow = new google.maps.InfoWindow({
+                content: props.content
+                });
+                
+                marker.addListener('click', function(){
+                infoWindow.open(map, marker);
+                });
+              }
              }
             } 
           </script>      
