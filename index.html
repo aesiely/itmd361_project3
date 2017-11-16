@@ -44,8 +44,27 @@
            play soccer.
         </p>
        </div>
-       <div id="map">
-        </div>
+       <div id="map"></div>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSZhddxBVIG30tMldz9QB-PLozG0CrpGs&callback=initMap">
+        </script>
+        <script> 
+            function initMap() {
+              //Map options
+            var options = {
+              zoom:5,
+              center: {lat: 26.8206, lng: 30.8025}
+             }
+              //New map
+            var map = new google.maps.Map(document.getElementById('map'), options);
+            
+            //Add marker
+            var marker = new google.maps.Marker({
+              position: {lat:31.526038, lng:31.843669},
+              map: map
+              });
+             }
+          </script>      
         
 <footer id="emailaddress">
    <address>

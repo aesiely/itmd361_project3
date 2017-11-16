@@ -88,7 +88,8 @@ h1 {
 
 #map {
   height: 500px;
-  width: 50%;
+  width: 75%;
+  margin: 30px auto;
 }
 
 #emailaddress {
